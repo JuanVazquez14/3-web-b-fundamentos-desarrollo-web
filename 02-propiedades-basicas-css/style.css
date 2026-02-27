@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #2a2a2a;
+    color: #fff;
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+p{
+    background-color: #373737;
+    text-align: center;
+}
+
+.btn-box{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 15px 0 15px 0;
+    border: none;
+}
+
+#portada{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#portada img{
+border: 25px solid orange;
+padding: 0px;
+background-color: #fff;
+width: 200px;
+}
