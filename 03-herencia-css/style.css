@@ -1,0 +1,51 @@
+body{
+    background-color: #121212;
+    color: #fff;
+}
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#miParrafo{color: purple violet;}
+.p{color: orange;
+    font-family: "Bebas Neue", sans-serif;
+}
+p{color: greenyellow;}
+
+.parent{
+  background-color: rgb(0, 142, 224);
+  width: 400px;
+  height: 300px;
+  border: 5px solid white;
+  border-radius: 15px;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+}
+
+.parent h1{
+    position: absolute;
+    font-size: 4.5rem;
+    left: 25%;
+    bottom: 20%;
+    z-index: 2;
+}
+
+.parent img{
+    position: absolute;
+}
+.orange{
+right: 0;
+top: 7%;
+z-index: 1;
+width: 40%;
+transform: rotate(32deg);
+}
+
+.leaf{
+    bottom: 15%;
+    left: -3%;
+    z-index: 3;
+    transform: rotate(-32deg);
+
+}
